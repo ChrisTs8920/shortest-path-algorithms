@@ -12,7 +12,7 @@ This repository implements and analyzes 3 shortest path algorithms in Python:
 
 ## Summary
 
-These algorithms find the shortest path between 2 vertices in a **weighted** graph. A graph is a collection of **vertices** connected by **edges**, which can represent real networks. For **example** in a computer network, the computers are the vertices and the connections between them are the edges (i.e. cables). In a weighted graph, each edge has an associated value attached to it, which represents the cost, the distance or the time it takes to traverse them. A graph be directed or undirected.
+These algorithms find the shortest path between 2 vertices in a **weighted** graph. A graph is a collection of **vertices** connected by **edges**, which can represent real networks. For **example** in a computer network, the computers are the vertices and the connections between them are the edges (i.e. cables). In a weighted graph, each edge has an associated value attached to it, which represents the cost, the distance or the time it takes to traverse them. A graph can be directed or undirected.
 
 These algorithms have many different applications in the real world, including:
 
@@ -30,16 +30,16 @@ These algorithms have many different applications in the real world, including:
 
 ### Floyd-Warshall
 
-- Also known as Floyd or Roy-Warshall, published in it's current form by Robert Floyd.
+- Also known as Floyd or Roy-Warshall, published in it's current form by Robert Floyd in 1962.
 - Finds shortest path between **all** pairs of vertices.
-- Can be used in graphs where the weights are either positive or negative.
+- Can be used in graphs where the weights are either **positive** or **negative**.
 - Time complexity: $O(n^3)$, where $n$ the number of vertices.
 
 ### Bellman-Ford
 
-- Proposed Alfonso Shimbel but got named after Richard Bellman and Lester Ford Jr.
+- Proposed Alfonso Shimbel in 1955 but got named after Richard Bellman and Lester Ford Jr.
 - Finds the shortest path from a given vertice to any other vertice. Can also find the shortest path between a given start vertice and a destination vertice.
-- Slower than Dijkstra's, but more flexible since it can be used in graphs with positive or negative weights.
+- Slower than Dijkstra's, but more flexible since it can be used in graphs with **positive** or **negative** weights.
 - Time complexity: $O(n*m)$, where $n$ the number of vertices, $m$ the number of edges.
 
 ## Example graphs used
