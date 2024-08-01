@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository implements and analyses 3 shortest path algorithms in Python:
+This repository implements and analyzes 3 shortest path algorithms in Python:
 
 - Dijkstra's
 - Floyd-Warshall
@@ -19,7 +19,7 @@ These algorithms have many different applications in the real world, including:
 - **Network routing:** Determine the most efficient path for data packets in computer networks.
 - **Geographic Information Systems (GIS):** Used in mapping and navigation services (Google maps) to find optimal routes and minimize distances.
 - **Robotics:** Path planning for autonomous robots to navigate in environments.
-- **VLSI Design:** Find optimal routes for connecting various circuit components such as gates and transistors.
+- **VLSI design:** Find optimal routes for connecting various circuit components such as gates and transistors.
 
 ### Dijkstra's
 
