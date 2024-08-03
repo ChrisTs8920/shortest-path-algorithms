@@ -8,7 +8,7 @@ This repository implements and analyzes 3 shortest path algorithms in Python:
 - Floyd-Warshall
 - Bellman-Ford
 
-*This project was made during my Graph theory course in university.*
+>*This project was made during my Graph theory course in university.*
 
 ## Summary
 
@@ -44,7 +44,7 @@ These algorithms have many different applications in the real world, including:
 
 ## Example graphs used
 
-A visualization of the graphs used in code.
+>A visualization of the graphs used in code
 
 ### Example 1
 
